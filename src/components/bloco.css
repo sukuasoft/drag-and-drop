@@ -1,0 +1,25 @@
+.bloco{
+    border-bottom: 1px solid #222;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+
+
+}
+.bloco-drag{
+    background-color: #444;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+.bloco__delete{
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:Red;
+    cursor: pointer;
+    padding: 4px;
+
+}

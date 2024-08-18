@@ -1,0 +1,17 @@
+.btn__counter{
+    padding: 6px 12px;
+    border: 1px solid #333;
+    color:white;
+    background-color: transparent;
+    min-width: 50px;
+    aspect-ratio: 1;
+}
+.btn__counter:active{
+    background-color: #444;
+}
+
+.container__btn{
+    margin-bottom: 30px;
+    display: flex;
+    gap:20px;
+}
