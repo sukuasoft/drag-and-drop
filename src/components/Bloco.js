@@ -94,8 +94,8 @@ return;
                 }
             }
             setBlocos(bls);
-        }} onClick={deleteTask}>{content}
-            <button className="bloco__delete">X</button>
+        }} >{content}
+            <button onClick={deleteTask} className="bloco__delete">X</button>
         </div>
     );
 }
